@@ -130,7 +130,7 @@
         position: relative;
         overflow: hidden;
 
-     
+
 
         img {
             width: 100%;
@@ -184,6 +184,7 @@
             }
 
         }
+
     }
 
 
@@ -213,55 +214,65 @@
         }
     }
 
-    .trips-card {
-        position: relative;
-        width: 400px;
-        height: auto;
+    .tab-content {
+        .tab-pane {
 
-        img {
-            width: 100%;
-            display: block;
-            opacity: 1;
-
-            transition: opacity 0.9s ease;
-
-            &:hover {
-                opacity: 0.5;
-            }
-        }
-
-        .tour {
-            position: absolute;
-            bottom: 0;
-            width: 100%;
-            background-color: rgba(11, 115, 42, 0.64);
-            display: flex;
+            display: grid;
             justify-content: space-between;
-            align-items: center;
+            grid-template-columns: auto auto auto;
+
+            .trips-card {
+                position: relative;
+                width: 380px;
+                height: auto;
+                margin-bottom: 20px ;
+
+                img {
+                    width: 100%;
+                    display: block;
+                    opacity: 1;
+
+                    transition: opacity 0.9s ease;
+
+                    &:hover {
+                        opacity: 0.5;
+                    }
+                }
+
+                .tour {
+                    position: absolute;
+                    bottom: 0;
+                    width: 100%;
+                    background-color: rgba(11, 115, 42, 0.64);
+                    display: flex;
+                    justify-content: space-between;
+                    align-items: center;
 
 
-            .tour-days {
-                background-color: #ED7701;
-                color: white;
+                    .tour-days {
+                        background-color: #ED7701;
+                        color: white;
+                    }
+
+                    .price {
+                        position: absolute;
+                        bottom: 226px;
+                        right: 0px;
+                        background-color: #ED7701;
+                        color: white;
+                        padding: 10px 20px;
+                        letter-spacing: 6px;
+                        display: none;
+                        z-index: 10;
+                        transition: all 0.3s ease;
+                    }
+                }
+
+
+                &:hover .price {
+                    display: block;
+                }
             }
-
-            .price {
-                position: absolute;
-                bottom: 226px;
-                right: 0px;
-                background-color: #ED7701;
-                color: white;
-                padding: 10px 20px;
-                letter-spacing: 6px;
-                display: none;
-                z-index: 10;
-                transition: all 0.3s ease;
-            }
-        }
-
-
-        &:hover .price {
-            display: block;
         }
     }
 
