@@ -1,0 +1,43 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+li {
+    list-style: none;
+    font-size: 16px;
+}
+
+a {
+    text-decoration: none;
+    color: inherit;
+}
+
+
+ul {
+    margin-bottom: none;
+}
+
+h2{
+    font-weight: 600;
+    font-size: 20px;
+    line-height: 25px;
+}
+
+body{
+    background-color: #F1F1F1;
+}
+button{
+    width: auto;
+    border: none;
+}
+
+p{
+    margin-bottom: 0px;
+}
+
+.containerr{
+    width: 1180px;
+    margin: 0 auto;
+}

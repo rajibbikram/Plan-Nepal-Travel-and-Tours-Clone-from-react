@@ -1,0 +1,41 @@
+footer{
+    background-color: #333333;
+
+    li{
+        transition: 0.8s;
+        a{
+            
+        }
+    }
+    a:hover{
+        color: #dba914;
+    }
+     li:hover{
+        transform: translatex(10px);
+        color: #dba914;
+    }
+
+    
+}
+
+.footer_flex{
+        display: flex;
+        justify-content: center;
+        padding: 20px 0;
+        gap: 90px;    
+        h4{
+            font-size: 14px;
+            line-height: 20px;
+            font-weight: 400;
+        }
+        img{
+            width: 400px;
+            height: 50px;
+            
+        }
+    }
+
+
+    .footer_end{
+        background-color: #0F6D2D;
+    }

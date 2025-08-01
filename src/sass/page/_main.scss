@@ -1,0 +1,327 @@
+.slid_div {
+
+    .slid_div_div {
+        .c-item {
+            height: 580px;
+            position: relative;
+
+            .c-img {
+                height: 100%;
+                object-fit: cover;
+                filter: brightness(0.6);
+
+            }
+
+            .slide-text {
+                position: absolute;
+                bottom: 220px;
+                right: 150px;
+                display: block;
+                text-align: end;
+                color: white;
+
+                h2 {
+                    font-size: 24px;
+                    font-weight: 500;
+                    line-height: 25px;
+
+                }
+
+                p {
+                    width: 650px;
+                    font-size: 14px;
+                    font-weight: 400;
+                    line-height: 24px;
+                    margin-top: 20px;
+                }
+
+                .button11 {
+                    padding: 10px;
+                    background-color: #ED7701;
+                    color: white;
+                    margin-top: 20px;
+
+                    &:hover {
+                        background-color: #0D772F !important;
+                    }
+                }
+
+            }
+        }
+    }
+
+    .card-item {
+        width: auto;
+        height: 55px;
+        position: absolute;
+        display: flex;
+        bottom: 40px;
+        right: 340px;
+        background-color: #F1F1F1;
+
+        .form-select {
+            border: #000 1px solid;
+            border-radius: 0px;
+
+
+        }
+
+        .btn_search:hover {
+            background-color: #0D772F;
+        }
+
+
+
+    }
+}
+
+
+
+
+
+.first-sec {
+    .head2 {
+        width: 440px;
+        background-color: #0D772F !important;
+    }
+
+    p {
+        text-align: justify;
+    }
+
+    .btn {
+        background-color: #ED7701;
+        border-radius: 0px !important;
+        color: white;
+
+        &:hover {
+            background-color: #0D772F !important;
+        }
+    }
+
+
+    .head {
+        width: 240px;
+        background-color: #0D772F !important;
+    }
+
+    li {
+        margin-bottom: 4px;
+
+        a {
+            color: black;
+            font-weight: 500;
+            transition: 0.7s;
+
+        }
+
+        a:hover {
+            text-decoration: underline;
+        }
+    }
+}
+
+
+
+.last-sec {
+    .ce-card {
+        width: 370px;
+        height: 250px;
+        position: relative;
+        overflow: hidden;
+
+     
+
+        img {
+            width: 100%;
+            height: 100%;
+            transition: 0.8s;
+
+
+        }
+
+        img:hover {
+            transform: scale(1.5);
+        }
+
+        .tour {
+            background-color: #ED7701;
+            position: absolute;
+            bottom: 20px;
+            transition: 0.8s;
+        }
+
+        .tour:hover {
+            background-color: #0B732B;
+        }
+
+    }
+
+}
+
+
+
+.second-sec {
+
+    .ul-list {
+        width: auto;
+        justify-content: center;
+        margin: 0 auto;
+
+        .nav-item {
+            .nav1-link {
+                background-color: rgb(25, 135, 84);
+            }
+
+            .nav1-link.active {
+                background-color: orange !important;
+                color: white;
+            }
+
+            .nav1-link:hover {
+                background-color: orange !important;
+                color: white;
+            }
+
+        }
+    }
+
+
+    .carousel-indicators {
+        button {
+            width: 12px;
+            height: 12px;
+            border-radius: 50%;
+            background-color: #000; // dark
+            border: 1px solid #333;
+            margin-right: 0.5rem;
+
+            &.active {
+                background-color: #ED7701; // highlight active
+            }
+        }
+    }
+
+    .last_slid {
+        .inner_slid {
+            position: relative;
+
+            .cont {
+                position: absolute;
+                top: 0;
+            }
+        }
+    }
+
+    .trips-card {
+        position: relative;
+        width: 400px;
+        height: auto;
+
+        img {
+            width: 100%;
+            display: block;
+            opacity: 1;
+
+            transition: opacity 0.9s ease;
+
+            &:hover {
+                opacity: 0.5;
+            }
+        }
+
+        .tour {
+            position: absolute;
+            bottom: 0;
+            width: 100%;
+            background-color: rgba(11, 115, 42, 0.64);
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+
+
+            .tour-days {
+                background-color: #ED7701;
+                color: white;
+            }
+
+            .price {
+                position: absolute;
+                bottom: 226px;
+                right: 0px;
+                background-color: #ED7701;
+                color: white;
+                padding: 10px 20px;
+                letter-spacing: 6px;
+                display: none;
+                z-index: 10;
+                transition: all 0.3s ease;
+            }
+        }
+
+
+        &:hover .price {
+            display: block;
+        }
+    }
+
+
+}
+
+
+
+.last {
+    .carousel-indicators {
+        button {
+            width: 12px;
+            height: 12px;
+            border-radius: 50%;
+            background-color: #523737; // dark
+            border: 1px solid #121212;
+            margin-right: 0.5rem;
+
+            &.active {
+                background-color: #d69657; // highlight active
+            }
+        }
+    }
+
+    .last_slid {
+        .inner_slid {
+            width: 100%;
+            height: 400px;
+            background-size: cover;
+            background-position: center;
+            background-repeat: no-repeat;
+
+            .cont {
+                width: 700px;
+                height: auto;
+                position: absolute;
+                display: block;
+                justify-content: center;
+                top: 40%;
+                left: 10%;
+            }
+        }
+    }
+
+
+    .accordion {
+        .accordion-item {
+            width: 488px;
+            height: 40px;
+
+            button {
+                background-color: #197938;
+                width: 100%;
+                height: 100%;
+                align-items: center;
+                display: flex;
+                justify-content: space-between;
+                border-top-left-radius: 5px;
+                border-top-right-radius: 5px;
+            }
+        }
+    }
+}
